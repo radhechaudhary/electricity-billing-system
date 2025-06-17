@@ -1,0 +1,47 @@
+/* Container Styling */
+.transactions-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading */
+  .transactions-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  /* Table Styling */
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .transactions-table th, .transactions-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .transactions-table th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .transactions-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for Paid Status */
+  .status-paid {
+    color: green;
+    font-weight: bold;
+  }
+  

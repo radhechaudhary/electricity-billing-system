@@ -1,0 +1,35 @@
+.navigation{
+    width:250px;
+    background-color: black;
+    /* height:100vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.navigation-buttons{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    padding:40px;
+    font-size: 20px;
+}
+.navigation-buttons a{
+    text-decoration: none;
+    color: white;
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:fit-content;
+}
+.navigation-buttons a div{
+    width:0;
+    height:2px;
+    border-radius: 100px;
+    background-color: white;
+    transition: 0.05s ease-in-out;
+    
+}
+.navigation-buttons a:hover div{
+    width:100%;
+}
